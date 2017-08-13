@@ -35,11 +35,12 @@
       <file leaf-file-name="Account.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BankSystem/src/Account.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="52" lean-forward="true" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+            <state relative-caret-position="255">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <element signature="e#425#426#0" expanded="true" />
                 <element signature="e#459#460#0" expanded="true" />
+                <element signature="e#513#514#0" expanded="true" />
                 <element signature="e#559#560#0" expanded="true" />
                 <element signature="e#592#593#0" expanded="true" />
                 <element signature="e#624#625#0" expanded="true" />
@@ -49,6 +50,8 @@
                 <element signature="e#777#778#0" expanded="true" />
                 <element signature="e#822#823#0" expanded="true" />
                 <element signature="e#855#856#0" expanded="true" />
+                <element signature="e#902#903#0" expanded="true" />
+                <element signature="e#932#933#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -410,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502582069511</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added getters and setters for accountName, accountId and isActive">
+      <created>1502582142367</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1502582142367</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -460,7 +470,8 @@
     <MESSAGE value="Changed name of module from src to BankSystem" />
     <MESSAGE value="Added constructor for Account.java" />
     <MESSAGE value="Added accountName to Account.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added accountName to Account.java" />
+    <MESSAGE value="Added getters and setters for accountName, accountId and isActive" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added getters and setters for accountName, accountId and isActive" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -482,6 +493,7 @@
           <folding>
             <element signature="e#425#426#0" expanded="true" />
             <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
             <element signature="e#559#560#0" expanded="true" />
             <element signature="e#592#593#0" expanded="true" />
             <element signature="e#624#625#0" expanded="true" />
@@ -491,6 +503,8 @@
             <element signature="e#777#778#0" expanded="true" />
             <element signature="e#822#823#0" expanded="true" />
             <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -505,11 +519,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BankSystem/src/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="52" lean-forward="true" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="e#425#426#0" expanded="true" />
             <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
             <element signature="e#559#560#0" expanded="true" />
             <element signature="e#592#593#0" expanded="true" />
             <element signature="e#624#625#0" expanded="true" />
@@ -519,6 +534,8 @@
             <element signature="e#777#778#0" expanded="true" />
             <element signature="e#822#823#0" expanded="true" />
             <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
           </folding>
         </state>
       </provider>

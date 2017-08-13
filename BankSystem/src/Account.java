@@ -38,4 +38,8 @@ public abstract class Account {
         isActive = active;
     }
 
+    public float checkBalance(int accountId){
+        return balance;
+    }
+
 }
