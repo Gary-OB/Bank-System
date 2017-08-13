@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f34cf8e4-3ddf-4bde-8a85-2a347f140ec4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BankSystem/src/CurrentAccount.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BankSystem/src/Account.java" afterPath="$PROJECT_DIR$/BankSystem/src/Account.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BankSystem/src/CurrentAccount.java" afterPath="$PROJECT_DIR$/BankSystem/src/CurrentAccount.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,8 +35,8 @@
       <file leaf-file-name="CurrentAccount.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BankSystem/src/CurrentAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="425">
+              <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
               <folding>
                 <element signature="e#360#361#0" expanded="true" />
                 <element signature="e#396#397#0" expanded="true" />
@@ -45,6 +44,8 @@
                 <element signature="e#503#504#0" expanded="true" />
                 <element signature="e#537#538#0" expanded="true" />
                 <element signature="e#567#568#0" expanded="true" />
+                <element signature="e#607#608#0" expanded="true" />
+                <element signature="e#640#641#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,8 +97,8 @@
         <option value="$PROJECT_DIR$/src/src/AccountHolder.java" />
         <option value="$PROJECT_DIR$/src/src/Account.java" />
         <option value="$PROJECT_DIR$/BankSystem/src/AccountHolder.java" />
-        <option value="$PROJECT_DIR$/BankSystem/src/CurrentAccount.java" />
         <option value="$PROJECT_DIR$/BankSystem/src/Account.java" />
+        <option value="$PROJECT_DIR$/BankSystem/src/CurrentAccount.java" />
       </list>
     </option>
   </component>
@@ -505,7 +506,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502584634306</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Added implementation of checkBalance from Account.java">
+      <created>1502585047060</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1502585047060</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -561,7 +569,8 @@
     <MESSAGE value="Added CurrentAccount.java" />
     <MESSAGE value="Added constructor for CurrentAccount.java" />
     <MESSAGE value="Added getters and setters for CurrentAccount.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added getters and setters for CurrentAccount.java" />
+    <MESSAGE value="Added implementation of checkBalance from Account.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added implementation of checkBalance from Account.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -628,8 +637,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BankSystem/src/CurrentAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="425">
+          <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
           <folding>
             <element signature="e#360#361#0" expanded="true" />
             <element signature="e#396#397#0" expanded="true" />
@@ -637,6 +646,8 @@
             <element signature="e#503#504#0" expanded="true" />
             <element signature="e#537#538#0" expanded="true" />
             <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
           </folding>
         </state>
       </provider>

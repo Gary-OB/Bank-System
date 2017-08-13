@@ -21,4 +21,8 @@ public class CurrentAccount extends Account {
     public float checkBalance(){
         return balance;
     }
+
+    public void deposit(float amount){
+        balance += amount;
+    }
 }
