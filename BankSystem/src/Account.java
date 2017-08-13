@@ -5,8 +5,8 @@ public abstract class Account {
 
     private String accountName;
     private int accountId;
-    private float balance = 0.0f;
     private boolean isActive;
+    public float balance = 0.0f;
 
 
     public Account(String accountName, int accountId, boolean isActive) {
@@ -39,7 +39,7 @@ public abstract class Account {
         isActive = active;
     }
 
-    public abstract float checkBalance(int accountId);
+    public abstract float checkBalance();
 
     public abstract void deposit(float amount);
 }
