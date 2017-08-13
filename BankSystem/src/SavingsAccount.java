@@ -25,4 +25,11 @@ public class SavingsAccount extends Account{
     public void deposit(float amount){
         balance += amount;
     }
+
+    public void addInterest(){
+        float interestToAdd;
+
+        interestToAdd = (balance * interestRate)/100;
+        balance += interestToAdd;
+    }
 }
