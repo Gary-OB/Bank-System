@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f34cf8e4-3ddf-4bde-8a85-2a347f140ec4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BankSystem/src/SavingsAccount.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BankSystem/src/SavingsAccount.java" afterPath="$PROJECT_DIR$/BankSystem/src/SavingsAccount.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,8 +35,8 @@
       <file leaf-file-name="CurrentAccount.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BankSystem/src/CurrentAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+            <state relative-caret-position="119">
+              <caret line="7" column="78" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="78" />
               <folding>
                 <element signature="e#360#361#0" expanded="true" />
                 <element signature="e#396#397#0" expanded="true" />
@@ -48,8 +48,8 @@
       <file leaf-file-name="SavingsAccount.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BankSystem/src/SavingsAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+            <state relative-caret-position="51">
+              <caret line="3" column="43" lean-forward="false" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -525,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502585134734</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Added SavingsAccount.java">
+      <created>1502646647427</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1502646647427</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -583,7 +590,8 @@
     <MESSAGE value="Added getters and setters for CurrentAccount.java" />
     <MESSAGE value="Added implementation of checkBalance from Account.java" />
     <MESSAGE value="Added implementation of deposit to from Account.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added implementation of deposit to from Account.java" />
+    <MESSAGE value="Added SavingsAccount.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added SavingsAccount.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -690,8 +698,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BankSystem/src/CurrentAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        <state relative-caret-position="119">
+          <caret line="7" column="78" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="78" />
           <folding>
             <element signature="e#360#361#0" expanded="true" />
             <element signature="e#396#397#0" expanded="true" />
@@ -701,8 +709,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BankSystem/src/SavingsAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        <state relative-caret-position="51">
+          <caret line="3" column="43" lean-forward="false" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
           <folding />
         </state>
       </provider>
