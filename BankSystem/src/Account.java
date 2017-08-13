@@ -38,8 +38,7 @@ public abstract class Account {
         isActive = active;
     }
 
-    public float checkBalance(int accountId){
-        return balance;
-    }
+    public abstract float checkBalance(int accountId);
 
+    public abstract void deposit(float amount);
 }
