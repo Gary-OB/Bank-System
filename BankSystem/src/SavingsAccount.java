@@ -17,5 +17,12 @@ public class SavingsAccount extends Account{
     public void setInterestRate(float interestRate) {
         this.interestRate = interestRate;
     }
-    
+
+    public float checkBalance(){
+        return balance;
+    }
+
+    public void deposit(float amount){
+        balance += amount;
+    }
 }
