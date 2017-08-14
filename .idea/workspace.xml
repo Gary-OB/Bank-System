@@ -25,11 +25,12 @@
       <file leaf-file-name="AccountHolder.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BankSystem/src/AccountHolder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+            <state relative-caret-position="238">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#281#297#0" expanded="true" />
+                <element signature="e#365#381#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -549,7 +550,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502647234526</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Added currentAccount ArrayList to AccountHolder.java">
+      <created>1502743431803</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1502743431803</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TodoView">
@@ -620,7 +628,8 @@
     <MESSAGE value="Added constructor for SavingsAccount.java" />
     <MESSAGE value="Added getters and setters for interestRate attribute" />
     <MESSAGE value="Implemented abstract methods from Account.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented abstract methods from Account.java" />
+    <MESSAGE value="Added currentAccount ArrayList to AccountHolder.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added currentAccount ArrayList to AccountHolder.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -638,6 +647,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#281#297#0" expanded="true" />
+            <element signature="e#365#381#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -679,6 +689,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#281#297#0" expanded="true" />
+            <element signature="e#365#381#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -712,6 +723,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#281#297#0" expanded="true" />
+            <element signature="e#365#381#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -759,11 +771,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BankSystem/src/AccountHolder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#281#297#0" expanded="true" />
+            <element signature="e#365#381#0" expanded="true" />
           </folding>
         </state>
       </provider>

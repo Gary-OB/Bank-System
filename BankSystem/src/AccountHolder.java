@@ -10,4 +10,5 @@ public class AccountHolder {
     private String surname;
     private String forename;
     private List<CurrentAccount> currentAccounts = new ArrayList<CurrentAccount>();
+    private List<SavingsAccount> savingsAccounts = new ArrayList<SavingsAccount>();
 }
