@@ -15,4 +15,28 @@ public class AccountHolder {
     public AccountHolder(String accountHolderId) {
         this.accountHolderId = accountHolderId;
     }
+
+    public String getAccountHolderId() {
+        return accountHolderId;
+    }
+
+    public void setAccountHolderId(String accountHolderId) {
+        this.accountHolderId = accountHolderId;
+    }
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
+    }
+
+    public String getForename() {
+        return forename;
+    }
+
+    public void setForename(String forename) {
+        this.forename = forename;
+    }
 }
