@@ -11,4 +11,8 @@ public class AccountHolder {
     private String forename;
     private List<CurrentAccount> currentAccounts = new ArrayList<CurrentAccount>();
     private List<SavingsAccount> savingsAccounts = new ArrayList<SavingsAccount>();
+
+    public AccountHolder(String accountHolderId) {
+        this.accountHolderId = accountHolderId;
+    }
 }
