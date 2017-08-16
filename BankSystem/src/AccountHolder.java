@@ -39,4 +39,10 @@ public class AccountHolder {
     public void setForename(String forename) {
         this.forename = forename;
     }
+
+    public void addCurrentAccount(int accountId, String accountName) {
+        CurrentAccount accountToAdd = new CurrentAccount(accountName, accountId, true, 3000.0f);
+
+        currentAccounts.add(accountToAdd);
+    }
 }
