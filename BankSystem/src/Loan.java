@@ -8,7 +8,7 @@ public class Loan {
     private int loanId;
     private Date startDate;
     private boolean isCleared;
-    private int loanAmount;
+    private float loanAmount;
 
     public int getLoanId() {
         return loanId;
@@ -30,11 +30,15 @@ public class Loan {
         isCleared = cleared;
     }
 
-    public int getLoanAmount() {
+    public float getLoanAmount() {
         return loanAmount;
     }
 
-    public void setLoanAmount(int loanAmount) {
+    public void setLoanAmount(float loanAmount) {
         this.loanAmount = loanAmount;
+    }
+
+    public void payAmount(float amountToPay){
+        loanAmount = loanAmount - amountToPay;
     }
 }
