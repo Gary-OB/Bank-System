@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f34cf8e4-3ddf-4bde-8a85-2a347f140ec4" name="Default" comment="">
+    <list default="true" id="f34cf8e4-3ddf-4bde-8a85-2a347f140ec4" name="Default" comment="Added Loan.java">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BankSystem/src/Loan.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BankSystem/src/AccountHolder.java" afterPath="$PROJECT_DIR$/BankSystem/src/AccountHolder.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,15 +22,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AccountHolder.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AccountHolder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BankSystem/src/AccountHolder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
+            <state relative-caret-position="578">
               <caret line="49" column="86" lean-forward="false" selection-start-line="49" selection-start-column="86" selection-end-line="49" selection-end-column="86" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#281#297#0" expanded="true" />
-                <element signature="e#365#381#0" expanded="true" />
                 <element signature="e#947#948#0" expanded="true" />
                 <element signature="e#987#988#0" expanded="true" />
               </folding>
@@ -38,10 +36,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Loan.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BankSystem/src/Loan.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="CurrentAccount.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BankSystem/src/CurrentAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="306">
               <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
               <folding>
                 <element signature="e#607#608#0" expanded="true" />
@@ -100,6 +108,7 @@
         <option value="$PROJECT_DIR$/BankSystem/src/CurrentAccount.java" />
         <option value="$PROJECT_DIR$/BankSystem/src/SavingsAccount.java" />
         <option value="$PROJECT_DIR$/BankSystem/src/AccountHolder.java" />
+        <option value="$PROJECT_DIR$/BankSystem/src/Loan.java" />
       </list>
     </option>
   </component>
@@ -127,6 +136,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -175,7 +185,6 @@
       </pane>
       <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -580,7 +589,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502743808645</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Added addSavingsAccount to AccountHolder.java">
+      <created>1503005245130</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1503005245130</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TodoView">
@@ -599,6 +615,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -629,8 +646,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added src folder to Intellij project" />
-    <MESSAGE value="Added AccountHolder.java class" />
     <MESSAGE value="Added attributes to AccountHolder.java" />
     <MESSAGE value="Added abstract class Account.java" />
     <MESSAGE value="Added attributes to Account.java" />
@@ -654,7 +669,9 @@
     <MESSAGE value="Added savingsAccounts ArrayList to AccountHolder.java" />
     <MESSAGE value="Added constructor for AccountHolder.java" />
     <MESSAGE value="Added getters and setters for accountHolderId, forename and surname" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added getters and setters for accountHolderId, forename and surname" />
+    <MESSAGE value="Added addSavingsAccount to AccountHolder.java" />
+    <MESSAGE value="Added Loan.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Loan.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -667,12 +684,60 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/BankSystem/src/AccountHolder.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="86" lean-forward="false" selection-start-line="49" selection-start-column="86" selection-end-line="49" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#947#948#0" expanded="true" />
+            <element signature="e#987#988#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankSystem/src/Loan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankSystem/src/CurrentAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankSystem/src/SavingsAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankSystem/src/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+          <folding>
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankSystem/src/AccountHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#281#297#0" expanded="true" />
-            <element signature="e#365#381#0" expanded="true" />
             <element signature="e#947#948#0" expanded="true" />
             <element signature="e#987#988#0" expanded="true" />
           </folding>
@@ -715,8 +780,6 @@
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#281#297#0" expanded="true" />
-            <element signature="e#365#381#0" expanded="true" />
             <element signature="e#947#948#0" expanded="true" />
             <element signature="e#987#988#0" expanded="true" />
           </folding>
@@ -759,8 +822,6 @@
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#281#297#0" expanded="true" />
-            <element signature="e#365#381#0" expanded="true" />
             <element signature="e#947#948#0" expanded="true" />
             <element signature="e#987#988#0" expanded="true" />
           </folding>
@@ -795,8 +856,6 @@
           <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#281#297#0" expanded="true" />
-            <element signature="e#365#381#0" expanded="true" />
             <element signature="e#947#948#0" expanded="true" />
             <element signature="e#987#988#0" expanded="true" />
           </folding>
@@ -825,17 +884,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BankSystem/src/CurrentAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="e#607#608#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BankSystem/src/SavingsAccount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -844,17 +892,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BankSystem/src/CurrentAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BankSystem/src/AccountHolder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
+        <state relative-caret-position="578">
           <caret line="49" column="86" lean-forward="false" selection-start-line="49" selection-start-column="86" selection-end-line="49" selection-end-column="86" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#281#297#0" expanded="true" />
-            <element signature="e#365#381#0" expanded="true" />
             <element signature="e#947#948#0" expanded="true" />
             <element signature="e#987#988#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankSystem/src/Loan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
