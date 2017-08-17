@@ -45,4 +45,10 @@ public class AccountHolder {
 
         currentAccounts.add(accountToAdd);
     }
+
+    public void addSavingsAccount(int accountId, String accountName) {
+        SavingsAccount accountToAdd = new SavingsAccount(accountName, accountId, true, 0.0f);
+
+        savingsAccounts.add(accountToAdd);
+    }
 }
