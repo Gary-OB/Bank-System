@@ -10,6 +10,13 @@ public class Loan {
     private boolean isCleared;
     private float loanAmount;
 
+    public Loan(int loanId, boolean isCleared, float loanAmount) {
+        this.loanId = loanId;
+        this.startDate = new Date();
+        this.isCleared = isCleared;
+        this.loanAmount = loanAmount;
+    }
+
     public int getLoanId() {
         return loanId;
     }
