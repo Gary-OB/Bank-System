@@ -13,6 +13,7 @@ public class AccountHolder {
     private String forename;
     private List<CurrentAccount> currentAccounts = new ArrayList<>();
     private List<SavingsAccount> savingsAccounts = new ArrayList<>();
+    private List<Loan> loans = new ArrayList<>();
 
     public AccountHolder(String accountHolderId) {
         this.accountHolderId = accountHolderId;
@@ -53,5 +54,5 @@ public class AccountHolder {
 
         savingsAccounts.add(accountToAdd);
     }
-
+    
 }
