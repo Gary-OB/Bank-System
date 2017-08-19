@@ -1,5 +1,7 @@
 /**
  * Created by Gary on 12/08/2017.
+ * The purpose of this class is to create a template to model other
+ * types of Accounts off of.
  */
 public abstract class Account {
 

@@ -3,6 +3,8 @@ import java.util.List;
 
 /**
  * Created by Gary on 12/08/2017.
+ * This class models an AccountHolder, who is a person looking to create
+ * an account or a person who already holds an account.
  */
 public class AccountHolder {
 

@@ -2,6 +2,8 @@ import java.util.Date;
 
 /**
  * Created by Gary on 17/08/2017.
+ * This class models a loan with all the related
+ * attributes of a loan.
  */
 public class Loan {
 

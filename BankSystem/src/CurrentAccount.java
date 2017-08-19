@@ -1,5 +1,8 @@
 /**
  * Created by Gary on 13/08/2017.
+ * This class is a child class of Account which specifies details
+ * associated with a CurrentAccount such as the ability to both
+ * withdraw and deposit funds.
  */
 public class CurrentAccount extends Account {
 

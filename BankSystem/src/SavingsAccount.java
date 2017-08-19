@@ -1,5 +1,8 @@
 /**
  * Created by Gary on 13/08/2017.
+ * This class is a child class of Account which specifies details
+ * associated with a SavingsAccount such as the ability to deposit
+ * funds and add interest.
  */
 public class SavingsAccount extends Account{
 
