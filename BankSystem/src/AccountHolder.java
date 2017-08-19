@@ -54,5 +54,10 @@ public class AccountHolder {
 
         savingsAccounts.add(accountToAdd);
     }
-    
+
+    public void addLoan(int loanId, float loanAmount) {
+        Loan loanToAdd = new Loan(loanId, false, loanAmount);
+
+        loans.add(loanToAdd);
+    }
 }
