@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -11,6 +12,7 @@ public class AccountHolder {
     private String accountHolderId;
     private String surname;
     private String forename;
+
     private List<CurrentAccount> currentAccounts = new ArrayList<>();
     private List<SavingsAccount> savingsAccounts = new ArrayList<>();
     private List<Loan> loans = new ArrayList<>();
@@ -59,5 +61,15 @@ public class AccountHolder {
         Loan loanToAdd = new Loan(loanId, false, loanAmount);
 
         loans.add(loanToAdd);
+    }
+
+    public CurrentAccount getCurrentAccount(int accountId) throws NullPointerException{
+        for(CurrentAccount account : currentAccounts){
+            if(accountId == account.getAccountId()){
+                return account;
+            }
+        }
+
+        return null;
     }
 }
