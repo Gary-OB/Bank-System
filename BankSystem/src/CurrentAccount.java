@@ -28,4 +28,11 @@ public class CurrentAccount extends Account {
     public void deposit(float amount){
         balance += amount;
     }
+
+    public String toString() {
+        return "CurrentAccount" +
+                "---------------" +
+                super.toString() +
+                "maximumAmount: " + maximumAmount;
+    }
 }

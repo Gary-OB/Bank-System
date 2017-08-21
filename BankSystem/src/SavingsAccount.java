@@ -35,4 +35,11 @@ public class SavingsAccount extends Account{
         interestToAdd = (balance * interestRate)/100;
         balance += interestToAdd;
     }
+
+    public String toString() {
+        return "SavingsAccount" +
+                "---------------" +
+                super.toString() +
+                "interestRate=" + interestRate;
+    }
 }

@@ -46,9 +46,7 @@ public abstract class Account {
     public abstract void deposit(float amount);
 
     public String toString() {
-        return  "Account" +
-                "------------" +
-                "accountName: " + accountName +
+        return  "accountName: " + accountName +
                 "accountId: " + accountId +
                 "isActive: " + isActive +
                 "balance: " + balance;
