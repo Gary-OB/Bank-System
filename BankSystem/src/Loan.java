@@ -50,4 +50,13 @@ public class Loan {
     public void payAmount(float amountToPay){
         loanAmount = loanAmount - amountToPay;
     }
+
+    public String toString() {
+        return  "Loan" +
+                "----------" +
+                "loanId: " + loanId +
+                "startDate: " + startDate +
+                "isCleared:" + isCleared +
+                "loanAmount: " + loanAmount;
+    }
 }

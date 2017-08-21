@@ -63,13 +63,4 @@ public class AccountHolder {
         loans.add(loanToAdd);
     }
 
-    public CurrentAccount getCurrentAccount(int accountId) throws NullPointerException{
-        for(CurrentAccount account : currentAccounts){
-            if(accountId == account.getAccountId()){
-                return account;
-            }
-        }
-
-        return null;
-    }
 }
