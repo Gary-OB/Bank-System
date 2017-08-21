@@ -44,4 +44,13 @@ public abstract class Account {
     public abstract float checkBalance();
 
     public abstract void deposit(float amount);
+
+    public String toString() {
+        return  "Account" +
+                "------------" +
+                "accountName: " + accountName +
+                "accountId: " + accountId +
+                "isActive: " + isActive +
+                "balance: " + balance;
+    }
 }
