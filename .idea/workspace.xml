@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f34cf8e4-3ddf-4bde-8a85-2a347f140ec4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BankSystem/src/Account.java" afterPath="$PROJECT_DIR$/BankSystem/src/Account.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BankSystem/src/CurrentAccount.java" afterPath="$PROJECT_DIR$/BankSystem/src/CurrentAccount.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BankSystem/src/SavingsAccount.java" afterPath="$PROJECT_DIR$/BankSystem/src/SavingsAccount.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BankSystem/src/AccountHolder.java" afterPath="$PROJECT_DIR$/BankSystem/src/AccountHolder.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +25,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CurrentAccount.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CurrentAccount.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BankSystem/src/CurrentAccount.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
@@ -67,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountHolder.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AccountHolder.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BankSystem/src/AccountHolder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+            <state relative-caret-position="739">
+              <caret line="102" column="14" lean-forward="true" selection-start-line="102" selection-start-column="14" selection-end-line="102" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,11 +99,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/src/AccountHolder.java" />
         <option value="$PROJECT_DIR$/src/src/Account.java" />
-        <option value="$PROJECT_DIR$/BankSystem/src/AccountHolder.java" />
         <option value="$PROJECT_DIR$/BankSystem/src/Loan.java" />
         <option value="$PROJECT_DIR$/BankSystem/src/Account.java" />
         <option value="$PROJECT_DIR$/BankSystem/src/SavingsAccount.java" />
         <option value="$PROJECT_DIR$/BankSystem/src/CurrentAccount.java" />
+        <option value="$PROJECT_DIR$/BankSystem/src/AccountHolder.java" />
       </list>
     </option>
   </component>
@@ -639,7 +637,14 @@
       <option name="project" value="LOCAL" />
       <updated>1503339237161</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Added toString() methods to both child classes of Account. Both these classes use a call to super.toString() to call the parents implementation of toString() and then append the extra fields onto the end">
+      <created>1503340859605</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1503340859605</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TodoView">
@@ -690,7 +695,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added CurrentAccount.java" />
     <MESSAGE value="Added constructor for CurrentAccount.java" />
     <MESSAGE value="Added getters and setters for CurrentAccount.java" />
     <MESSAGE value="Added implementation of checkBalance from Account.java" />
@@ -715,7 +719,8 @@
     <MESSAGE value="Added method addLoan which adds a new Loan to the ArrayList loans" />
     <MESSAGE value="Added toString() method to Loan.java. This is to be used when listing all the loans in the AccountHolder class as per the new requirement which requests loans are to be displayed on command by the user" />
     <MESSAGE value="Added toString() method to Account.java. This is to be called in the extended classes CurrentAccount and SavingsAccount" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added toString() method to Account.java. This is to be called in the extended classes CurrentAccount and SavingsAccount" />
+    <MESSAGE value="Added toString() methods to both child classes of Account. Both these classes use a call to super.toString() to call the parents implementation of toString() and then append the extra fields onto the end" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added toString() methods to both child classes of Account. Both these classes use a call to super.toString() to call the parents implementation of toString() and then append the extra fields onto the end" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -965,28 +970,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/out/production/src/Account.class" />
-    <entry file="file://$PROJECT_DIR$/BankSystem/src/AccountHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BankSystem/src/Loan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="56" column="37" lean-forward="true" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BankSystem/src/SavingsAccount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="38" column="4" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="43" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankSystem/src/CurrentAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -999,11 +994,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BankSystem/src/CurrentAccount.java">
+    <entry file="file://$PROJECT_DIR$/BankSystem/src/Loan.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        <state relative-caret-position="680">
+          <caret line="56" column="37" lean-forward="true" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankSystem/src/AccountHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="739">
+          <caret line="102" column="14" lean-forward="true" selection-start-line="102" selection-start-column="14" selection-end-line="102" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

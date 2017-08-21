@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Objects;
 
 /**
  * Created by Gary on 12/08/2017.
@@ -63,4 +64,42 @@ public class AccountHolder {
         loans.add(loanToAdd);
     }
 
+    public String listCurrentAccounts(){
+        Iterator itr = currentAccounts.iterator();
+        String currentAccountList = "Current Accounts\n" +
+                                    "----------------\n";
+
+        while(itr.hasNext()){
+            Object element = itr.next();
+            currentAccountList.concat(element.toString());
+        }
+
+        return currentAccountList;
+    }
+
+    public String listSavingsAccounts(){
+        Iterator itr = savingsAccounts.iterator();
+        String savingsAccountList = "Savings Accounts\n" +
+                "----------------\n";
+
+        while(itr.hasNext()){
+            Object element = itr.next();
+            savingsAccountList.concat(element.toString());
+        }
+
+        return savingsAccountList;
+    }
+
+    public String listLoan(){
+        Iterator itr = loans.iterator();
+        String loanList = "Loans\n" +
+                "----------------\n";
+
+        while(itr.hasNext()){
+            Object element = itr.next();
+            loanList.concat(element.toString());
+        }
+
+        return loanList;
+    }
 }
