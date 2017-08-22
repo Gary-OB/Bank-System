@@ -10,7 +10,7 @@ import java.util.Objects;
  */
 public class AccountHolder {
 
-    private String accountHolderId;
+    private int accountHolderId;
     private String surname;
     private String forename;
 
@@ -18,15 +18,17 @@ public class AccountHolder {
     private List<SavingsAccount> savingsAccounts = new ArrayList<>();
     private List<Loan> loans = new ArrayList<>();
 
-    public AccountHolder(String accountHolderId) {
+    public AccountHolder(int accountHolderId, String surname, String forename) {
         this.accountHolderId = accountHolderId;
+        this.surname = surname;
+        this.forename = forename;
     }
 
-    public String getAccountHolderId() {
+    public int getAccountHolderId() {
         return accountHolderId;
     }
 
-    public void setAccountHolderId(String accountHolderId) {
+    public void setAccountHolderId(int accountHolderId) {
         this.accountHolderId = accountHolderId;
     }
 
