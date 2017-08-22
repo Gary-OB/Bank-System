@@ -4,11 +4,8 @@
     <option name="SCOPE_TYPE" value="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f34cf8e4-3ddf-4bde-8a85-2a347f140ec4" name="Default" comment="Added toString() methods to both child classes of Account. Both these classes use a call to super.toString() to call the parents implementation of toString() and then append the extra fields onto the end">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="f34cf8e4-3ddf-4bde-8a85-2a347f140ec4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BankSystem/src.iml" afterPath="$PROJECT_DIR$/BankSystem/src.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BankSystem/src/AccountHolder.java" afterPath="$PROJECT_DIR$/BankSystem/src/AccountHolder.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,22 +67,9 @@
       <file leaf-file-name="Account.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BankSystem/src/Account.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
+            <state relative-caret-position="519">
               <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-              <folding>
-                <element signature="e#522#523#0" expanded="false" />
-                <element signature="e#556#557#0" expanded="false" />
-                <element signature="e#610#611#0" expanded="false" />
-                <element signature="e#656#657#0" expanded="false" />
-                <element signature="e#689#690#0" expanded="false" />
-                <element signature="e#721#722#0" expanded="false" />
-                <element signature="e#768#769#0" expanded="false" />
-                <element signature="e#810#811#0" expanded="false" />
-                <element signature="e#843#844#0" expanded="false" />
-                <element signature="e#874#875#0" expanded="false" />
-                <element signature="e#919#920#0" expanded="false" />
-                <element signature="e#952#953#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -93,7 +77,7 @@
       <file leaf-file-name="AccountHolder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BankSystem/src/AccountHolder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
+            <state relative-caret-position="-695">
               <caret line="30" column="38" lean-forward="false" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
               <folding>
                 <element signature="e#923#924#0" expanded="true" />
@@ -106,11 +90,12 @@
       <file leaf-file-name="BankSystemTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BankSystem/src/BankSystemTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="567">
+              <caret line="37" column="62" lean-forward="false" selection-start-line="37" selection-start-column="62" selection-end-line="37" selection-end-column="62" />
               <folding>
-                <element signature="e#255#256#0" expanded="true" />
-                <element signature="e#319#320#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#346#347#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -716,7 +701,14 @@
       <option name="project" value="LOCAL" />
       <updated>1503340859605</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Added BankSystemTest.java. This contains the main of the class which will run a test version of the application. In a real environment, all the relevant data will be set up at startup. In this setting we will make a call to initialiseData(), which mocks real data entered into the system.">
+      <created>1503433205097</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1503433205097</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TodoView">
@@ -798,7 +790,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added constructor for CurrentAccount.java" />
     <MESSAGE value="Added getters and setters for CurrentAccount.java" />
     <MESSAGE value="Added implementation of checkBalance from Account.java" />
     <MESSAGE value="Added implementation of deposit to from Account.java" />
@@ -823,7 +814,8 @@
     <MESSAGE value="Added toString() method to Loan.java. This is to be used when listing all the loans in the AccountHolder class as per the new requirement which requests loans are to be displayed on command by the user" />
     <MESSAGE value="Added toString() method to Account.java. This is to be called in the extended classes CurrentAccount and SavingsAccount" />
     <MESSAGE value="Added toString() methods to both child classes of Account. Both these classes use a call to super.toString() to call the parents implementation of toString() and then append the extra fields onto the end" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added toString() methods to both child classes of Account. Both these classes use a call to super.toString() to call the parents implementation of toString() and then append the extra fields onto the end" />
+    <MESSAGE value="Added BankSystemTest.java. This contains the main of the class which will run a test version of the application. In a real environment, all the relevant data will be set up at startup. In this setting we will make a call to initialiseData(), which mocks real data entered into the system." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added BankSystemTest.java. This contains the main of the class which will run a test version of the application. In a real environment, all the relevant data will be set up at startup. In this setting we will make a call to initialiseData(), which mocks real data entered into the system." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -874,20 +866,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding>
-            <element signature="e#522#523#0" expanded="false" />
-            <element signature="e#556#557#0" expanded="false" />
-            <element signature="e#610#611#0" expanded="false" />
-            <element signature="e#656#657#0" expanded="false" />
-            <element signature="e#689#690#0" expanded="false" />
-            <element signature="e#721#722#0" expanded="false" />
-            <element signature="e#768#769#0" expanded="false" />
-            <element signature="e#810#811#0" expanded="false" />
-            <element signature="e#843#844#0" expanded="false" />
-            <element signature="e#874#875#0" expanded="false" />
-            <element signature="e#919#920#0" expanded="false" />
-            <element signature="e#952#953#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -907,8 +886,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -953,20 +933,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="e#522#523#0" expanded="false" />
-            <element signature="e#556#557#0" expanded="false" />
-            <element signature="e#610#611#0" expanded="false" />
-            <element signature="e#656#657#0" expanded="false" />
-            <element signature="e#689#690#0" expanded="false" />
-            <element signature="e#721#722#0" expanded="false" />
-            <element signature="e#768#769#0" expanded="false" />
-            <element signature="e#810#811#0" expanded="false" />
-            <element signature="e#843#844#0" expanded="false" />
-            <element signature="e#874#875#0" expanded="false" />
-            <element signature="e#919#920#0" expanded="false" />
-            <element signature="e#952#953#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1021,20 +988,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-          <folding>
-            <element signature="e#522#523#0" expanded="false" />
-            <element signature="e#556#557#0" expanded="false" />
-            <element signature="e#610#611#0" expanded="false" />
-            <element signature="e#656#657#0" expanded="false" />
-            <element signature="e#689#690#0" expanded="false" />
-            <element signature="e#721#722#0" expanded="false" />
-            <element signature="e#768#769#0" expanded="false" />
-            <element signature="e#810#811#0" expanded="false" />
-            <element signature="e#843#844#0" expanded="false" />
-            <element signature="e#874#875#0" expanded="false" />
-            <element signature="e#919#920#0" expanded="false" />
-            <element signature="e#952#953#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1102,20 +1056,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-          <folding>
-            <element signature="e#522#523#0" expanded="false" />
-            <element signature="e#556#557#0" expanded="false" />
-            <element signature="e#610#611#0" expanded="false" />
-            <element signature="e#656#657#0" expanded="false" />
-            <element signature="e#689#690#0" expanded="false" />
-            <element signature="e#721#722#0" expanded="false" />
-            <element signature="e#768#769#0" expanded="false" />
-            <element signature="e#810#811#0" expanded="false" />
-            <element signature="e#843#844#0" expanded="false" />
-            <element signature="e#874#875#0" expanded="false" />
-            <element signature="e#919#920#0" expanded="false" />
-            <element signature="e#952#953#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1171,20 +1112,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-          <folding>
-            <element signature="e#522#523#0" expanded="false" />
-            <element signature="e#556#557#0" expanded="false" />
-            <element signature="e#610#611#0" expanded="false" />
-            <element signature="e#656#657#0" expanded="false" />
-            <element signature="e#689#690#0" expanded="false" />
-            <element signature="e#721#722#0" expanded="false" />
-            <element signature="e#768#769#0" expanded="false" />
-            <element signature="e#810#811#0" expanded="false" />
-            <element signature="e#843#844#0" expanded="false" />
-            <element signature="e#874#875#0" expanded="false" />
-            <element signature="e#919#920#0" expanded="false" />
-            <element signature="e#952#953#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1239,20 +1167,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-          <folding>
-            <element signature="e#522#523#0" expanded="false" />
-            <element signature="e#556#557#0" expanded="false" />
-            <element signature="e#610#611#0" expanded="false" />
-            <element signature="e#656#657#0" expanded="false" />
-            <element signature="e#689#690#0" expanded="false" />
-            <element signature="e#721#722#0" expanded="false" />
-            <element signature="e#768#769#0" expanded="false" />
-            <element signature="e#810#811#0" expanded="false" />
-            <element signature="e#843#844#0" expanded="false" />
-            <element signature="e#874#875#0" expanded="false" />
-            <element signature="e#919#920#0" expanded="false" />
-            <element signature="e#952#953#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1307,20 +1222,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-          <folding>
-            <element signature="e#522#523#0" expanded="false" />
-            <element signature="e#556#557#0" expanded="false" />
-            <element signature="e#610#611#0" expanded="false" />
-            <element signature="e#656#657#0" expanded="false" />
-            <element signature="e#689#690#0" expanded="false" />
-            <element signature="e#721#722#0" expanded="false" />
-            <element signature="e#768#769#0" expanded="false" />
-            <element signature="e#810#811#0" expanded="false" />
-            <element signature="e#843#844#0" expanded="false" />
-            <element signature="e#874#875#0" expanded="false" />
-            <element signature="e#919#920#0" expanded="false" />
-            <element signature="e#952#953#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1357,20 +1259,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding>
-            <element signature="e#522#523#0" expanded="false" />
-            <element signature="e#556#557#0" expanded="false" />
-            <element signature="e#610#611#0" expanded="false" />
-            <element signature="e#656#657#0" expanded="false" />
-            <element signature="e#689#690#0" expanded="false" />
-            <element signature="e#721#722#0" expanded="false" />
-            <element signature="e#768#769#0" expanded="false" />
-            <element signature="e#810#811#0" expanded="false" />
-            <element signature="e#843#844#0" expanded="false" />
-            <element signature="e#874#875#0" expanded="false" />
-            <element signature="e#919#920#0" expanded="false" />
-            <element signature="e#952#953#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1389,20 +1278,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#522#523#0" expanded="false" />
-            <element signature="e#556#557#0" expanded="false" />
-            <element signature="e#610#611#0" expanded="false" />
-            <element signature="e#656#657#0" expanded="false" />
-            <element signature="e#689#690#0" expanded="false" />
-            <element signature="e#721#722#0" expanded="false" />
-            <element signature="e#768#769#0" expanded="false" />
-            <element signature="e#810#811#0" expanded="false" />
-            <element signature="e#843#844#0" expanded="false" />
-            <element signature="e#874#875#0" expanded="false" />
-            <element signature="e#919#920#0" expanded="false" />
-            <element signature="e#952#953#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1446,28 +1322,15 @@
     <entry file="file://$PROJECT_DIR$/BankSystem/src/Loan.java" />
     <entry file="file://$PROJECT_DIR$/BankSystem/src/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
+        <state relative-caret-position="519">
           <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding>
-            <element signature="e#522#523#0" expanded="false" />
-            <element signature="e#556#557#0" expanded="false" />
-            <element signature="e#610#611#0" expanded="false" />
-            <element signature="e#656#657#0" expanded="false" />
-            <element signature="e#689#690#0" expanded="false" />
-            <element signature="e#721#722#0" expanded="false" />
-            <element signature="e#768#769#0" expanded="false" />
-            <element signature="e#810#811#0" expanded="false" />
-            <element signature="e#843#844#0" expanded="false" />
-            <element signature="e#874#875#0" expanded="false" />
-            <element signature="e#919#920#0" expanded="false" />
-            <element signature="e#952#953#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BankSystem/src/AccountHolder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
+        <state relative-caret-position="-695">
           <caret line="30" column="38" lean-forward="false" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
           <folding>
             <element signature="e#923#924#0" expanded="true" />
@@ -1478,11 +1341,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BankSystem/src/BankSystemTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="567">
+          <caret line="37" column="62" lean-forward="false" selection-start-line="37" selection-start-column="62" selection-end-line="37" selection-end-column="62" />
           <folding>
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
           </folding>
         </state>
       </provider>
