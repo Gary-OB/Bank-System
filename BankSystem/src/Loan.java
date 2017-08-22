@@ -52,11 +52,9 @@ public class Loan {
     }
 
     public String toString() {
-        return  "Loan" +
-                "----------" +
-                "loanId: " + loanId +
-                "startDate: " + startDate +
-                "isCleared:" + isCleared +
-                "loanAmount: " + loanAmount;
+        return  "loanId: " + loanId +
+                "\nstartDate: " + startDate +
+                "\nisCleared:" + isCleared +
+                "\nloanAmount: " + loanAmount;
     }
 }

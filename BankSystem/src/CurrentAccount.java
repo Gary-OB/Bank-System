@@ -30,9 +30,7 @@ public class CurrentAccount extends Account {
     }
 
     public String toString() {
-        return "CurrentAccount" +
-                "---------------" +
-                super.toString() +
-                "maximumAmount: " + maximumAmount;
+        return  super.toString() +
+                "\nmaximumAmount: " + maximumAmount;
     }
 }

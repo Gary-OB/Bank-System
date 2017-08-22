@@ -67,39 +67,30 @@ public class AccountHolder {
     }
 
     public String listCurrentAccounts(){
-        Iterator itr = currentAccounts.iterator();
-        String currentAccountList = "Current Accounts\n" +
-                                    "----------------\n";
+        String currentAccountList = "";
 
-        while(itr.hasNext()){
-            Object element = itr.next();
-            currentAccountList.concat(element.toString());
+        for(CurrentAccount item : currentAccounts){
+            currentAccountList += item.toString() + "\n";
         }
 
         return currentAccountList;
     }
 
     public String listSavingsAccounts(){
-        Iterator itr = savingsAccounts.iterator();
-        String savingsAccountList = "Savings Accounts\n" +
-                "----------------\n";
+        String savingsAccountList = "";
 
-        while(itr.hasNext()){
-            Object element = itr.next();
-            savingsAccountList.concat(element.toString());
+        for(SavingsAccount item : savingsAccounts){
+            savingsAccountList += item.toString() + "\n";
         }
 
         return savingsAccountList;
     }
 
     public String listLoan(){
-        Iterator itr = loans.iterator();
-        String loanList = "Loans\n" +
-                "----------------\n";
+        String loanList = "";
 
-        while(itr.hasNext()){
-            Object element = itr.next();
-            loanList.concat(element.toString());
+        for(Loan item : loans){
+            loanList += item.toString() + "\n";
         }
 
         return loanList;

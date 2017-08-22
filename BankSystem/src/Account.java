@@ -47,8 +47,8 @@ public abstract class Account {
 
     public String toString() {
         return  "accountName: " + accountName +
-                "accountId: " + accountId +
-                "isActive: " + isActive +
-                "balance: " + balance;
+                "\naccountId: " + accountId +
+                "\nisActive: " + isActive +
+                "\nbalance: " + balance;
     }
 }
