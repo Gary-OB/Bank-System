@@ -54,7 +54,7 @@ public class Loan {
     public String toString() {
         return  "loanId: " + loanId +
                 "\nstartDate: " + startDate +
-                "\nisCleared:" + isCleared +
+                "\nisCleared: " + isCleared +
                 "\nloanAmount: " + loanAmount;
     }
 }

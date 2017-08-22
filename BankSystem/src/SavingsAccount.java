@@ -38,6 +38,6 @@ public class SavingsAccount extends Account{
 
     public String toString() {
         return  super.toString() +
-                "\ninterestRate=" + interestRate;
+                "\ninterestRate: " + interestRate;
     }
 }
