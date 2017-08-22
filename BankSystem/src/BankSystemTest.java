@@ -7,6 +7,21 @@ public class BankSystemTest {
         AccountHolder accountHolder = setupAccountHolder();
         System.out.println(listDetails(accountHolder));
 
+        boolean running = true;
+        String systemChoice = "";
+
+        while(running) {
+            System.out.print("What does your request have to deal with? (Current Accounts - 'C'" +
+                    ", Savings Accounts - 'S' or Loans - 'L' ): ");
+
+            if(systemChoice == "c".toUpperCase()){
+                //deal with CurrentAccounts
+            } else if (systemChoice == "s".toUpperCase()){
+                //deal with SavingsAccount
+            } else if (systemChoice == "l".toUpperCase()){
+                //deal with Loans
+            } else running = false;
+        }
     }
 
     public static AccountHolder setupAccountHolder(){

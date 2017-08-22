@@ -95,5 +95,14 @@ public class AccountHolder {
 
         return loanList;
     }
-    
+
+    public CurrentAccount retrieveCurrentAccount(int accountId){
+        for(CurrentAccount item : currentAccounts){
+            if(accountId == item.getAccountId()){
+                return item;
+            }
+        }
+
+        return null;
+    }
 }
