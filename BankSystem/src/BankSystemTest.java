@@ -43,10 +43,10 @@ public class BankSystemTest {
 
     public static void displayText(AccountHolder accountHolder){
         boolean running = true;
-        String systemChoice = "";
+        String systemChoice;
         int inputInt = 0;
-        float inputFloat = 0.00f;
-        String inputString = "";
+        float inputFloat;
+        String inputString;
 
         Scanner input = new Scanner(System.in);
 
@@ -131,6 +131,7 @@ public class BankSystemTest {
 
                             System.out.print("Deposit how much?: ");
                             inputFloat = input.nextFloat();
+
                             accountHolder.retrieveSavingsAccount(inputInt).deposit(inputFloat);
                             break;
                         case "da":

@@ -71,8 +71,8 @@
       <file leaf-file-name="BankSystemTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BankSystem/src/BankSystemTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1961">
-              <caret line="161" column="49" lean-forward="true" selection-start-line="161" selection-start-column="49" selection-end-line="161" selection-end-column="49" />
+            <state relative-caret-position="108">
+              <caret line="123" column="21" lean-forward="false" selection-start-line="123" selection-start-column="21" selection-end-line="123" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -781,7 +781,14 @@
       <option name="project" value="LOCAL" />
       <updated>1503525855259</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Intellij Analysis: Replaced if else with switch statements for bette readability">
+      <created>1503528783470</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1503528783470</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TodoView">
@@ -832,7 +839,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added savingsAccounts ArrayList to AccountHolder.java" />
     <MESSAGE value="Added constructor for AccountHolder.java" />
     <MESSAGE value="Added getters and setters for accountHolderId, forename and surname" />
     <MESSAGE value="Added addSavingsAccount to AccountHolder.java" />
@@ -857,7 +863,8 @@
     <MESSAGE value="Added types to each LinkedList so that each List can be queried separately and return a specific CurrentAccount, SavingsAccount or Loan" />
     <MESSAGE value="Updated BankSystemTest to include a basic run through of the system. Implement all features as requested by the user requirements." />
     <MESSAGE value="Updated deposit method to contain extra logic which will check if the amount to be deposited is more than the maximum amount dedicated for the account. Also checks if a loanAmount is less than or equal to zero and sets the loan to cleared" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated deposit method to contain extra logic which will check if the amount to be deposited is more than the maximum amount dedicated for the account. Also checks if a loanAmount is less than or equal to zero and sets the loan to cleared" />
+    <MESSAGE value="Intellij Analysis: Replaced if else with switch statements for bette readability" />
+    <option name="LAST_COMMIT_MESSAGE" value="Intellij Analysis: Replaced if else with switch statements for bette readability" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1358,8 +1365,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BankSystem/src/BankSystemTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1961">
-          <caret line="161" column="49" lean-forward="true" selection-start-line="161" selection-start-column="49" selection-end-line="161" selection-end-column="49" />
+        <state relative-caret-position="108">
+          <caret line="123" column="21" lean-forward="false" selection-start-line="123" selection-start-column="21" selection-end-line="123" selection-end-column="21" />
           <folding />
         </state>
       </provider>
