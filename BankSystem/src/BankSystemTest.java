@@ -28,8 +28,11 @@ public class BankSystemTest {
         AccountHolder newAccountHolder = new AccountHolder(1001, "Gonzales", "Sarah");
 
         newAccountHolder.addCurrentAccount(2001, "My Current Account");
+        newAccountHolder.addCurrentAccount(2002, "My Second Current Account");
         newAccountHolder.addSavingsAccount(3001, "My Savings Account");
         newAccountHolder.addLoan(4001, 2500.0f);
+        newAccountHolder.addLoan(4002, 30.0f);
+        newAccountHolder.addLoan(4003, 500.0f);
 
         return newAccountHolder;
     }

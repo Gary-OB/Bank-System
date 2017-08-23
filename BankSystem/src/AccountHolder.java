@@ -11,9 +11,9 @@ public class AccountHolder {
     private String surname;
     private String forename;
 
-    private LinkedList currentAccounts = new LinkedList();
-    private LinkedList savingsAccounts = new LinkedList();
-    private LinkedList loans = new LinkedList();
+    private LinkedList<CurrentAccount> currentAccounts = new LinkedList();
+    private LinkedList<SavingsAccount> savingsAccounts = new LinkedList();
+    private LinkedList<Loan> loans = new LinkedList();
 
     public AccountHolder(int accountHolderId, String surname, String forename) {
         this.accountHolderId = accountHolderId;
@@ -75,11 +75,17 @@ public class AccountHolder {
         loans.add(loanToAdd);
     }
 
+    /*public CurrentAccount retrieveCurrentAccount(int accountId){
+        for(CurrentAccount item : currentAccounts){
+
+        }
+    }*/
+
     public static String listContents(LinkedList list){
         Iterator itr = list.iterator();
         String contentsList = "";
         while(itr.hasNext()){
-            contentsList = itr.next().toString() + "\n";
+            contentsList += itr.next().toString() + "\n\n";
         }
 
         return contentsList;
