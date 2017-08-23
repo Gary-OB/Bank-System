@@ -75,11 +75,35 @@ public class AccountHolder {
         loans.add(loanToAdd);
     }
 
-    /*public CurrentAccount retrieveCurrentAccount(int accountId){
+    public CurrentAccount retrieveCurrentAccount(int accountId){
         for(CurrentAccount item : currentAccounts){
-
+            if(accountId == item.getAccountId()){
+                return item;
+            }
         }
-    }*/
+
+        return null;
+    }
+
+    public SavingsAccount retrieveSavingsAccount(int accountId){
+        for(SavingsAccount item : savingsAccounts){
+            if(accountId == item.getAccountId()){
+                return item;
+            }
+        }
+
+        return null;
+    }
+
+    public Loan retrieveLoan(int loanId){
+        for(Loan item : loans){
+            if(loanId == item.getLoanId()){
+                return item;
+            }
+        }
+
+        return null;
+    }
 
     public static String listContents(LinkedList list){
         Iterator itr = list.iterator();

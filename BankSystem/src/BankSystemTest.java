@@ -1,27 +1,12 @@
+import jdk.nashorn.internal.runtime.regexp.joni.ScanEnvironment;
+
 import java.util.Scanner;
 
 public class BankSystemTest {
     public static void main(String args[]){
-        Scanner input = new Scanner(System.in);
 
         AccountHolder accountHolder = setupAccountHolder();
-        System.out.println(listDetails(accountHolder));
-
-        boolean running = true;
-        String systemChoice = "";
-
-        while(running) {
-            System.out.print("What does your request have to deal with? (Current Accounts - 'C'" +
-                    ", Savings Accounts - 'S' or Loans - 'L' ): ");
-
-            if(systemChoice == "c".toUpperCase()){
-                //deal with CurrentAccounts
-            } else if (systemChoice == "s".toUpperCase()){
-                //deal with SavingsAccount
-            } else if (systemChoice == "l".toUpperCase()){
-                //deal with Loans
-            } else running = false;
-        }
+        displayText(accountHolder);
     }
 
     public static AccountHolder setupAccountHolder(){
@@ -48,5 +33,125 @@ public class BankSystemTest {
                 "\n" + AccountHolder.listContents(accountHolder.getSavingsAccounts()) +
                 "\n\n---Loans---" +
                 "\n" + AccountHolder.listContents(accountHolder.getLoans());
+    }
+
+    public static void displayText(AccountHolder accountHolder){
+        boolean running = true;
+        String systemChoice = "";
+        int inputInt = 0;
+        float inputFloat = 0.00f;
+        String inputString = "";
+
+        Scanner input = new Scanner(System.in);
+
+        while(running) {
+            System.out.println(listDetails(accountHolder));
+
+            System.out.print("What does your request have to deal with? (Current Accounts - 'C'" +
+                    ", Savings Accounts - 'S' or Loans - 'L' ): ");
+            systemChoice = input.nextLine();
+
+            if(systemChoice.equals("c")){
+                System.out.println("Add new Current Account? - 'A'" +
+                        "\nDeposit funds? - 'D'" +
+                        "\nWithdraw Funds? - 'W'" +
+                        "\nDeactivate Account? - 'DA'" +
+                        "\nSet Maximum amount? - 'M'");
+                systemChoice = input.nextLine();
+                if(systemChoice.equals("a")){
+                    System.out.print("Enter new Account Id: ");
+                    inputInt = input.nextInt();
+                    input.nextLine();
+
+                    System.out.print("Enter new Account Name: ");
+                    inputString = input.nextLine();
+
+                    accountHolder.addCurrentAccount(inputInt, inputString);
+                } else if(systemChoice.equals("d")) {
+                    System.out.print("Enter account Id: ");
+                    inputInt = input.nextInt();
+
+                    System.out.print("Deposit how much?: ");
+                    inputFloat = input.nextFloat();
+                    accountHolder.retrieveCurrentAccount(inputInt).deposit(inputFloat);
+                } else if(systemChoice.equals("w")) {
+                    System.out.print("Enter account Id: ");
+                    inputInt = input.nextInt();
+
+                    System.out.print("Withdraw how much?: ");
+                    inputFloat = input.nextFloat();
+                    accountHolder.retrieveCurrentAccount(inputInt).withdraw(inputFloat);
+                } else if(systemChoice.equals("da")) {
+                    System.out.print("Are you sure?: ");
+                    inputString = input.nextLine();
+                    if(inputString.equals("y")) accountHolder.retrieveCurrentAccount(inputInt).setActive(false);
+                } else if(systemChoice.equals("m")){
+                    System.out.print("Set maximum amount: ");
+                    inputFloat = input.nextFloat();
+
+                    accountHolder.retrieveCurrentAccount(inputInt).setMaximumAmount(inputFloat);
+                }
+            } else if (systemChoice.equals("s")){
+                System.out.println("Add new Savings Account? - 'A'" +
+                        "\nDeposit funds? - 'D'" +
+                        "\nDeactivate Account? - 'DA'" +
+                        "\nSet Interest? - 'M'" +
+                        "\nAdd Interest? - 'M'");
+                systemChoice = input.nextLine();
+
+                if(systemChoice.equals("a")){
+                    System.out.print("Enter new Account Id: ");
+                    inputInt = input.nextInt();
+                    input.nextLine();
+
+                    System.out.print("Enter new Account Name: ");
+                    inputString = input.nextLine();
+
+                    accountHolder.addSavingsAccount(inputInt, inputString);
+                } else if(systemChoice.equals("d")) {
+                    System.out.print("Enter account Id: ");
+                    inputInt = input.nextInt();
+
+                    System.out.print("Deposit how much?: ");
+                    inputFloat = input.nextFloat();
+                    accountHolder.retrieveSavingsAccount(inputInt).deposit(inputFloat);
+                }  else if(systemChoice.equals("da")) {
+                    System.out.print("Are you sure?: ");
+                    inputString = input.nextLine();
+                    if(inputString.equals("y")) accountHolder.retrieveSavingsAccount(inputInt).setActive(false);
+                } else if(systemChoice.equals("si")){
+                    System.out.print("Add interest: ");
+                    inputFloat = input.nextFloat();
+
+                    accountHolder.retrieveSavingsAccount(inputInt).setInterestRate(inputFloat);
+                } else if(systemChoice.equals("ai")){
+                    System.out.print("Set interest: ");
+                    inputFloat = input.nextFloat();
+
+                    accountHolder.retrieveSavingsAccount(inputInt).addInterest();
+                }
+            } else if (systemChoice.equals("l")){
+                System.out.println("Add new Loan? - 'A'" +
+                        "\nPay off amount? - 'P'");
+                systemChoice = input.nextLine();
+
+                if(systemChoice.equals("a")){
+                    System.out.print("Enter new Loan Id: ");
+                    inputInt = input.nextInt();
+                    input.nextLine();
+
+                    System.out.print("Enter loan amount: ");
+                    inputFloat = input.nextFloat();
+
+                    accountHolder.addLoan(inputInt, inputFloat);
+                } else if(systemChoice.equals("p")) {
+                    System.out.print("How much to pay off: ");
+                    inputFloat = input.nextFloat();
+
+                    accountHolder.retrieveLoan(inputInt).payAmount(inputFloat);
+                }
+            } else running = false;
+
+        }
     }
 }

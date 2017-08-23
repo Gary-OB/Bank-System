@@ -29,6 +29,10 @@ public class CurrentAccount extends Account {
         balance += amount;
     }
 
+    public void withdraw(float amount){
+        balance -= amount;
+    }
+
     public String toString() {
         return  super.toString() +
                 "\nmaximumAmount: " + maximumAmount;
