@@ -75,7 +75,7 @@ public class AccountHolder {
         loans.add(loanToAdd);
     }
 
-    public String listContents(LinkedList list){
+    public static String listContents(LinkedList list){
         Iterator itr = list.iterator();
         String contentsList = "";
         while(itr.hasNext()){
@@ -84,5 +84,5 @@ public class AccountHolder {
 
         return contentsList;
     }
-    
+
 }

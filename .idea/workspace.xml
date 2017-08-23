@@ -69,8 +69,8 @@
       <file leaf-file-name="BankSystemTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BankSystem/src/BankSystemTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="46" lean-forward="true" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
+            <state relative-caret-position="799">
+              <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -79,8 +79,8 @@
       <file leaf-file-name="AccountHolder.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BankSystem/src/AccountHolder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="858">
-              <caret line="86" column="4" lean-forward="false" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="4" />
+            <state relative-caret-position="705">
+              <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
               <folding>
                 <element signature="e#1218#1219#0" expanded="true" />
                 <element signature="e#1256#1257#0" expanded="true" />
@@ -119,8 +119,8 @@
         <option value="$PROJECT_DIR$/BankSystem/src/Account.java" />
         <option value="$PROJECT_DIR$/BankSystem/src/Loan.java" />
         <option value="$PROJECT_DIR$/BankSystem/src/SavingsAccount.java" />
-        <option value="$PROJECT_DIR$/BankSystem/src/BankSystemTest.java" />
         <option value="$PROJECT_DIR$/BankSystem/src/AccountHolder.java" />
+        <option value="$PROJECT_DIR$/BankSystem/src/BankSystemTest.java" />
       </list>
     </option>
   </component>
@@ -744,7 +744,14 @@
       <option name="project" value="LOCAL" />
       <updated>1503441342040</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="AccountHolder.java violated the code smell &quot;large methods&quot;. This bloater was dealt with by first changing all the types of ArrayList&lt;&gt; to LinkedList. This way I can use one method which takes a LinkedList as a parameter and then returns the contents of that list as a String. Getters had to be added to deal with the ability to retrieve one of the specific Lists which hold either CurrentAccounts, SavingsAccounts or Loans">
+      <created>1503514961140</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1503514961140</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TodoView">
@@ -795,7 +802,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added SavingsAccount.java" />
     <MESSAGE value="Added constructor for SavingsAccount.java" />
     <MESSAGE value="Added getters and setters for interestRate attribute" />
     <MESSAGE value="Implemented abstract methods from Account.java" />
@@ -820,7 +826,8 @@
     <MESSAGE value="Added a method to BankSystemTest which lists all the AccountHolders initialised at runtime. Updated the data of all account in initialiseData() to add a SavingsAccount, CurrentAccount and Loan. This is so the AccountHolders can list extra information with them" />
     <MESSAGE value="Updated toString() messages of CurrentAccount, SavingsAccount, Account and Loan to produce a cleaner result when written on a console log" />
     <MESSAGE value="Made a mistake with the original version of BankSystemTest. It was setup in a way to handle multiple AccountHolders and all their information at once. Removed this and added a version which implements a new main dealing with only one AccountHolder as, in real life, the system would only deal with the customer the user of the system is dealing with currently. This BankSystemTest contains two new methods. One which displays all the information of the person (listDetails()) and one which set up the user and adds mock data such as accounts and a loan." />
-    <option name="LAST_COMMIT_MESSAGE" value="Made a mistake with the original version of BankSystemTest. It was setup in a way to handle multiple AccountHolders and all their information at once. Removed this and added a version which implements a new main dealing with only one AccountHolder as, in real life, the system would only deal with the customer the user of the system is dealing with currently. This BankSystemTest contains two new methods. One which displays all the information of the person (listDetails()) and one which set up the user and adds mock data such as accounts and a loan." />
+    <MESSAGE value="AccountHolder.java violated the code smell &quot;large methods&quot;. This bloater was dealt with by first changing all the types of ArrayList&lt;&gt; to LinkedList. This way I can use one method which takes a LinkedList as a parameter and then returns the contents of that list as a String. Getters had to be added to deal with the ability to retrieve one of the specific Lists which hold either CurrentAccounts, SavingsAccounts or Loans" />
+    <option name="LAST_COMMIT_MESSAGE" value="AccountHolder.java violated the code smell &quot;large methods&quot;. This bloater was dealt with by first changing all the types of ArrayList&lt;&gt; to LinkedList. This way I can use one method which takes a LinkedList as a parameter and then returns the contents of that list as a String. Getters had to be added to deal with the ability to retrieve one of the specific Lists which hold either CurrentAccounts, SavingsAccounts or Loans" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1261,16 +1268,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BankSystem/src/BankSystemTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="46" lean-forward="true" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
+        <state relative-caret-position="799">
+          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BankSystem/src/AccountHolder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="86" column="4" lean-forward="false" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="4" />
+        <state relative-caret-position="705">
+          <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
           <folding>
             <element signature="e#1218#1219#0" expanded="true" />
             <element signature="e#1256#1257#0" expanded="true" />
