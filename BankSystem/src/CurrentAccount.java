@@ -26,7 +26,7 @@ public class CurrentAccount extends Account {
     }
 
     public void deposit(float amount){
-        balance += amount;
+        if(isActive() && (balance+amount) <= maximumAmount) balance += amount;
     }
 
     public void withdraw(float amount){

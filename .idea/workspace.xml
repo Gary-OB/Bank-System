@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f34cf8e4-3ddf-4bde-8a85-2a347f140ec4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BankSystem/src/AccountHolder.java" afterPath="$PROJECT_DIR$/BankSystem/src/AccountHolder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BankSystem/src/BankSystemTest.java" afterPath="$PROJECT_DIR$/BankSystem/src/BankSystemTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BankSystem/src/CurrentAccount.java" afterPath="$PROJECT_DIR$/BankSystem/src/CurrentAccount.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BankSystem/src/Loan.java" afterPath="$PROJECT_DIR$/BankSystem/src/Loan.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,8 +30,11 @@
         <entry file="file://$PROJECT_DIR$/BankSystem/src/CurrentAccount.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding />
+              <caret line="28" column="60" lean-forward="false" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
+              <folding>
+                <element signature="e#768#769#0" expanded="true" />
+                <element signature="e#853#854#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,17 +59,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Loan.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Loan.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BankSystem/src/Loan.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="646">
-              <caret line="54" column="24" lean-forward="false" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+              <caret line="52" column="45" lean-forward="false" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BankSystemTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BankSystemTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BankSystem/src/BankSystemTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="691">
@@ -119,11 +121,11 @@
         <option value="$PROJECT_DIR$/src/src/AccountHolder.java" />
         <option value="$PROJECT_DIR$/src/src/Account.java" />
         <option value="$PROJECT_DIR$/BankSystem/src/Account.java" />
-        <option value="$PROJECT_DIR$/BankSystem/src/Loan.java" />
         <option value="$PROJECT_DIR$/BankSystem/src/SavingsAccount.java" />
         <option value="$PROJECT_DIR$/BankSystem/src/AccountHolder.java" />
-        <option value="$PROJECT_DIR$/BankSystem/src/CurrentAccount.java" />
         <option value="$PROJECT_DIR$/BankSystem/src/BankSystemTest.java" />
+        <option value="$PROJECT_DIR$/BankSystem/src/CurrentAccount.java" />
+        <option value="$PROJECT_DIR$/BankSystem/src/Loan.java" />
       </list>
     </option>
   </component>
@@ -768,7 +770,14 @@
       <option name="project" value="LOCAL" />
       <updated>1503519502035</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Updated BankSystemTest to include a basic run through of the system. Implement all features as requested by the user requirements.">
+      <created>1503525576983</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1503525576983</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TodoView">
@@ -819,7 +828,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented abstract methods from Account.java" />
     <MESSAGE value="Added currentAccount ArrayList to AccountHolder.java" />
     <MESSAGE value="Added savingsAccounts ArrayList to AccountHolder.java" />
     <MESSAGE value="Added constructor for AccountHolder.java" />
@@ -844,7 +852,8 @@
     <MESSAGE value="AccountHolder.java violated the code smell &quot;large methods&quot;. This bloater was dealt with by first changing all the types of ArrayList&lt;&gt; to LinkedList. This way I can use one method which takes a LinkedList as a parameter and then returns the contents of that list as a String. Getters had to be added to deal with the ability to retrieve one of the specific Lists which hold either CurrentAccounts, SavingsAccounts or Loans" />
     <MESSAGE value="Made method used to deal with bloater method, static as it does not need to be used on instantiable classes only" />
     <MESSAGE value="Added types to each LinkedList so that each List can be queried separately and return a specific CurrentAccount, SavingsAccount or Loan" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added types to each LinkedList so that each List can be queried separately and return a specific CurrentAccount, SavingsAccount or Loan" />
+    <MESSAGE value="Updated BankSystemTest to include a basic run through of the system. Implement all features as requested by the user requirements." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated BankSystemTest to include a basic run through of the system. Implement all features as requested by the user requirements." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -861,7 +870,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="33" column="19" lean-forward="false" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
-          <folding />
+          <folding>
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -918,7 +930,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -967,7 +982,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1006,7 +1024,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="85" lean-forward="false" selection-start-line="10" selection-start-column="85" selection-end-line="10" selection-end-column="85" />
-          <folding />
+          <folding>
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1062,7 +1083,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1102,7 +1126,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1141,7 +1168,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1180,7 +1210,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1219,7 +1252,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1255,22 +1291,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/out/production/src/Account.class" />
-    <entry file="file://$PROJECT_DIR$/BankSystem/src/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="51" column="19" lean-forward="false" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BankSystem/src/CurrentAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BankSystem/src/AccountHolder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="841">
@@ -1286,6 +1306,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BankSystem/src/BankSystemTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="691">
+          <caret line="44" column="47" lean-forward="false" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankSystem/src/CurrentAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="28" column="60" lean-forward="false" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
+          <folding>
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BankSystem/src/SavingsAccount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -1294,21 +1335,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BankSystem/src/Loan.java">
+    <entry file="file://$PROJECT_DIR$/BankSystem/src/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="54" column="24" lean-forward="false" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+        <state relative-caret-position="663">
+          <caret line="51" column="19" lean-forward="false" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BankSystem/src/BankSystemTest.java">
+    <entry file="file://$PROJECT_DIR$/BankSystem/src/Loan.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="691">
-          <caret line="44" column="47" lean-forward="false" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="646">
+          <caret line="52" column="45" lean-forward="false" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>

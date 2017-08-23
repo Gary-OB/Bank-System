@@ -49,6 +49,8 @@ public class Loan {
 
     public void payAmount(float amountToPay){
         loanAmount = loanAmount - amountToPay;
+
+        if(loanAmount <= 0) isCleared = true;
     }
 
     public String toString() {
