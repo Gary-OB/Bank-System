@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Objects;
+import java.util.*;
 
 /**
  * Created by Gary on 12/08/2017.
@@ -14,9 +11,9 @@ public class AccountHolder {
     private String surname;
     private String forename;
 
-    private List<CurrentAccount> currentAccounts = new ArrayList<>();
-    private List<SavingsAccount> savingsAccounts = new ArrayList<>();
-    private List<Loan> loans = new ArrayList<>();
+    private LinkedList currentAccounts = new LinkedList();
+    private LinkedList savingsAccounts = new LinkedList();
+    private LinkedList loans = new LinkedList();
 
     public AccountHolder(int accountHolderId, String surname, String forename) {
         this.accountHolderId = accountHolderId;
@@ -48,6 +45,18 @@ public class AccountHolder {
         this.forename = forename;
     }
 
+    public LinkedList getCurrentAccounts() {
+        return currentAccounts;
+    }
+
+    public LinkedList getSavingsAccounts() {
+        return savingsAccounts;
+    }
+
+    public LinkedList getLoans() {
+        return loans;
+    }
+
     public void addCurrentAccount(int accountId, String accountName) {
         CurrentAccount accountToAdd = new CurrentAccount(accountName, accountId, true, 3000.0f);
 
@@ -66,43 +75,14 @@ public class AccountHolder {
         loans.add(loanToAdd);
     }
 
-    public String listCurrentAccounts(){
-        String currentAccountList = "";
-
-        for(CurrentAccount item : currentAccounts){
-            currentAccountList += item.toString() + "\n";
+    public String listContents(LinkedList list){
+        Iterator itr = list.iterator();
+        String contentsList = "";
+        while(itr.hasNext()){
+            contentsList = itr.next().toString() + "\n";
         }
 
-        return currentAccountList;
+        return contentsList;
     }
-
-    public String listSavingsAccounts(){
-        String savingsAccountList = "";
-
-        for(SavingsAccount item : savingsAccounts){
-            savingsAccountList += item.toString() + "\n";
-        }
-
-        return savingsAccountList;
-    }
-
-    public String listLoan(){
-        String loanList = "";
-
-        for(Loan item : loans){
-            loanList += item.toString() + "\n";
-        }
-
-        return loanList;
-    }
-
-    public CurrentAccount retrieveCurrentAccount(int accountId){
-        for(CurrentAccount item : currentAccounts){
-            if(accountId == item.getAccountId()){
-                return item;
-            }
-        }
-
-        return null;
-    }
+    
 }

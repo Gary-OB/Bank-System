@@ -40,10 +40,10 @@ public class BankSystemTest {
                 "\nSurname: " + accountHolder.getSurname() +
                 "\nForename: " + accountHolder.getForename() +
                 "\n\n---Current Accounts---" +
-                "\n" + accountHolder.listCurrentAccounts() +
+                "\n" + accountHolder.listContents(accountHolder.getCurrentAccounts()) +
                 "\n\n---Savings Accounts---" +
-                "\n" + accountHolder.listSavingsAccounts() +
+                "\n" + accountHolder.listContents(accountHolder.getSavingsAccounts()) +
                 "\n\n---Loans---" +
-                "\n" + accountHolder.listLoan();
+                "\n" + accountHolder.listContents(accountHolder.getLoans());
     }
 }
